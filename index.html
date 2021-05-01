@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/handsontable@8.3.2/dist/handsontable.full.min.css" rel="stylesheet" media="screen">
+    <script src="assets/angular.js"></script>
+    <script src="index.js"></script>
+    <script src="app/app.js"></script>
+    <script src="http://www.cardquest.com/product-populate/dist/handsontable.full.js"></script>
+    <script src="http://www.cardquest.com/product-populate/demo/bower_components/chroma-js/chroma.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="widgets/handsontable/handsontable-widget.js"></script>
+    <script src="widgets/highcharts/highcharts-widget.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body ng-app="DemoApp" ng-controller="DemoController">
+
+    <div class="jumbotron text-center mb-0">
+        <h1>Developer Assessment</h1>
+    </div>
+
+    <br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 widget">
+                <h1>Highcharts Heatmap</h1>
+                <i>Please modify the custom-highcharts-widget so that it returns a heatmap using highcharts.</i>
+                <custom-highcharts-widget></custom-highcharts-widget>
+            </div>
+            <div class="col-sm-12 widget">
+                <h1>Handsontable Heatmap</h1>
+                <i>Please modify the custom-handsontable-widget so that it returns a heatmap using handsontable.</i>
+                <custom-handsontable-widget></custom-handsontable-widget>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

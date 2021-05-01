@@ -1,0 +1,14 @@
+{
+  "name": "widget-test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Developer skills assessment",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+  }
+}
